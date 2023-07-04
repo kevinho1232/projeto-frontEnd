@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.titulo-principal {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.navegacao {
+    display: inline-flex;
+    position: relative;
+    left: 940px;
+    top: -35px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao li a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 53px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lista:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.banner {
+    position: relative;
+    left: -1px;
+    top: 4px;
+    width: 100%;
+    height: 350px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: 33px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    display: flex;
+    background-color: #1c1c1c;
+    height: 350px;
+    width: 1515px;
+}
+
+.tampa1 {
+    position: relative;
+    left: 350px;
+    top: 53px;
+    height: 100px;
+}
+
+.tampa2 {
+    position: relative;
+    left: 550px;
+    top: 53px;
+    height: 100px;
+}
+
+.tampa3 {
+    position: relative;
+    display: flex;
+    left: 750px;
+    top: 53px;
+    height: 100px;
+}
+
+.tampa4 {
+    position: relative;
+    display: flex;
+    left: 55px;
+    top: 200px;
+    height: 100px;
+}
+
+.tampa5 {
+    position: relative;
+    display: flex;
+    left: 250px;
+    top: 200px;
+    height: 100px;
+}
+
+.tampa6 {
+    position: relative;
+    display: flex;
+    left: 445px;
+    top: 200px;
+    height: 100px;
+}
+
+.box-branco {
+    background-color: #000;
+}
+
+.garrafa {
+    position: relative;
+    top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-primeiro {
+    color: #fff;
+    position: absolute;
+    left: 270px;
+    top: 1030px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-segundo {
+    color: #fff;
+    position: absolute;
+    top: 1075px;
+    left: 350px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.negrito {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.retronavel {
+    background-color: red;
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    top: 1150px;
+    left: 820px;
+}
+
+.garrafa-dois {
+    color: #fff;
+    position: absolute;
+    top: 1173px;
+    left: 885px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coca {
+    height: 250px;
+    position: absolute;
+    top: 1215px;
+    left: 858px;
+}
+
+.retronavelUm {
+    background-color: red;
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    top: 1150px;
+    left: 380px;
+}
+
+.garrafa-tres {
+    color: #fff;
+    position: absolute;
+    top: 1173px;
+    left: 471px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coquinha {
+    height: 250px;
+    position: absolute;
+    top: 1215px;
+    left: 497px;
+    font-family: 'Montserrat', sans-serif;
+}

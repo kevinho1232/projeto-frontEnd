@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+img {
+    display: flex;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+
+.navegacao {
+    display: inline-flex;
+    position: relative;
+    left: 940px;
+    top: -35px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao li a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lista:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.titulo-principal {
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 145px;
+    left: 65px;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-secundario {
+    color: red;
+    position: absolute;
+    top: 170px;
+    left: 65px;
+    font-size: 200px;
+    display: block;
+}
+
+.titulo-secundarioo {
+    color: red;
+    position: absolute;
+    top: 320px;
+    left: 65px;
+    font-size: 200px;
+    
+}
+
+.texto-principal  {
+    color: #fff;
+    position: absolute;
+    top: 540px;
+    left: 65px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.butao {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 685px;
+    left: 70px;
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    border-radius: 65px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    clip-path: circle(50% at bottom right);
+}
+
+.imagem1 {
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    width: 185px;
+    transform: rotate(-15deg);
+}
+
+.imagem2 {
+    position: absolute;
+    left: 1205px;
+    top: 350px;
+    width: 185px;
+    transform: rotate(-705deg);
+}
+
+.logoInsta {
+    width: 55px;
+    position: absolute;
+    top: 685px;
+    left: 440px;
+}
+.logoInsta:hover {
+    cursor: pointer;
+    opacity:.8;
+}
+
+.logoLink {
+    width: 55px;
+    position: absolute;
+    top: 685px;
+    left: 510px;
+}
+.logoLink:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.logoGit {
+    width: 55px;
+    position: absolute;
+    top: 685px;
+    left: 580px;
+}
+.logoGit:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.box-ultimo {
+    background-color: #fff;
+    height: 100px;
+    width: 1519px;
+    position: absolute;
+    top: 750px;
+}
+
+.desenvolvedor {
+    color: #000;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
